@@ -1,0 +1,7 @@
+.dimension{
+    width: 500px;
+    height: 300px;
+}
+.nav-tabs .nav-link:hover{
+    background-color: rgb(132, 240, 240);
+}

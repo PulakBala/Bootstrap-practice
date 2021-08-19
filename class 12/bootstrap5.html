@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggleable</title>
+
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- toggoleable dynamic tab starts -->
+
+        <div class="container mt-2">
+            <h3>Bootstrap 5 Tabs</h3>
+            <ul class="nav nav-tabs">
+
+                <li class="nav-item"><a  class="bg-info text-white nav-link active" data-bs-toggle="tab"  href="#profile">Chameleons</a></li>
+
+                <li class="nav-item"><a  class="nav-link " data-bs-toggle="tab"   href="#education">Penguin</a></li>
+
+                <li class="nav-item"><a  class="nav-link " data-bs-toggle="tab"  href="#contact">Lion</a></li>
+
+                
+            </ul>
+
+            <div class="tab-content">
+               <div class="tab-pane active" id="profile">
+                   <div class="row border g-0 rounded shadow-lg">
+                       <div class="col p-4"> 
+                           <h3>Chameleons</h3>              
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi, maxime aspernatur sit voluptatum aut nisi minima optio ducimus ab voluptatem, voluptas eligendi libero reprehenderit unde aliquid. Sint, corrupti provident.</p>
+                       </div>
+                       <div class="col-auto">
+                            <img class="img-thumbanil dimension " src="images/pexels-photo-567540.jpeg" alt="">
+                       </div>
+                   </div>
+               </div>
+
+               <div class="tab-pane" id="education">
+                 <div class="row border g-0 rounded shadow-lg">
+                      <div class="col p-4">   
+                          <h3>Penguin</h3>            
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi, maxime aspernatur sit voluptatum aut nisi minima optio ducimus ab voluptatem, voluptas eligendi libero reprehenderit unde aliquid. Sint, corrupti provident.</p>
+                       </div>
+                       <div class="col-auto">
+                           <img class="img-thumbanil dimension " src="images/pexel 2.jpeg" alt="">
+                       </div>
+                  </div>
+               </div>
+
+               <div class="tab-pane" id="contact">
+                   <div class="row border g-0 rounded shadow-lg">
+                      <div class="col p-4">  
+                          <h3>Lion</h3>             
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi, maxime aspernatur sit voluptatum aut nisi minima optio ducimus ab voluptatem, voluptas eligendi libero reprehenderit unde aliquid. Sint, corrupti provident.</p>
+                       </div>
+                       <div class="col-auto">
+                           <img class="img-thumbanil dimension " src="images/pexel3.jpeg" alt="">
+                       </div>
+                   </div>
+               </div>
+
+
+            </div>
+        </div>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
